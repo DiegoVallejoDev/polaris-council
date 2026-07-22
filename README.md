@@ -21,31 +21,22 @@ If the Orchestrator is unsatisfied, the **decay loop** raises the temperature an
 
 ## Setup
 
-1. Clone this repo alongside the Polaris framework:
+1. Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/DiegoVallejoDev/Polaris.git
-cd Polaris && pnpm install && pnpm run build
-
-cd ..
 git clone https://github.com/DiegoVallejoDev/polaris-council.git
 cd polaris-council
-```
-
-2. Install dependencies and link the local Polaris build:
-
-```bash
 pnpm install
 ```
 
-3. Create a `.env` file:
+2. Create a `.env` file:
 
 ```bash
 cp .env.example .env
 # Add your OpenAI API key
 ```
 
-4. Run the dev servers:
+3. Run the dev servers:
 
 ```bash
 pnpm run dev

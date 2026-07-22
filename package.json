@@ -15,7 +15,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.6.1",
     "express": "^4.21.0",
-    "polaris-framework": "file:../Polaris"
+    "polaris-framework": "^2.1.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",

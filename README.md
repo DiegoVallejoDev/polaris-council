@@ -2,6 +2,8 @@
 
 An interactive demo of the [Polaris](https://github.com/DiegoVallejoDev/Polaris) multi-agent framework: a council of biased agents debate a policy question through the 4-layer Polaris Creativa pipeline.
 
+![Polaris Council UI](docs/council-screenshot.png)
+
 ## What it does
 
 1. **Divergent layer** — five agents explore the question from distinct perspectives (Libertarian, Privacy Advocate, Utilitarian, Technologist, Regulator).
